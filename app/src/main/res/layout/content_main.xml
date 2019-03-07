@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.letsthrough.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+   >
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="2dp"
+    android:background="#ffffff"
+    android:layout_marginTop="2dp">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:text="Vegetables"
+        android:textStyle="bold"
+        android:id="@+id/Vegetables"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:onClick="openVegetables"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:text="Fruits"
+        android:id="@+id/fruits"
+        android:textColor="#ffffff"
+        android:background="@drawable/a"
+        android:onClick="openfruits"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="Beverages"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/a"
+        android:onClick="openbeverages"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Household Needs"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/a"
+        android:onClick="openHousehold"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recycler_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/a"
+
+
+        >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:padding="10dp"
+        android:id="@+id/about"
+        android:text="About us"/>
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:text="Letsthrough was started in 2016 by 4 young entrepreneurs with a common goal. The goal was to provide an online platform to grocery shops working offline and help them reach to their potential customers by the website and mobile applications. Since the start in 2016, we have covered many cities and are working with many grocery shops of small and big scale. Our founders are :
+
+1. Shashi Shekhar  2. Ashutosh Urmaliya 3. Anurag Anand 4. Shashank Shambhu"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:padding="10dp"
+            android:text="Our history"/>
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:text="It all started with a simple idea of connecting retail stores in India with the online platform so as to deliver what is required by customers at their door. The idea generated back in.
+
+With the simple idea of digital marketing to retail marketing, it all came into existence in 2016 which gave birth to the letsthrough online grocery."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:padding="10dp"
+            android:text="Contact Us"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:text="Sarvoday nagar road no.4, east gola road, danapur, patna 801503
+
+ Email: contact@letsthrough.com
+
+ Mobile: 8789152576"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One stop shop for all your daily needs
+
+Letsthrough is an online supermarket that allows you to order products across categories like grocery, beauty and wellness, household care, baby care, pet care and gets them delivered to your doorstep.
+
+Brands
+
+24Mantra   Aashirvaad   Act II   Amul   Axe   Bambino  Best Value   Bingo   Bisleri   Boost    Bournvita    Britannia    Brooke Bond   Bru   Cadbury    Cheetos   Cinthol    Closeup    Coca-Cola    Colgate    Dabur    Danone    Del Monte   Dettol    Dhara   Dove    Durex English Oven    Everest   Fiama Di Wills   Garnier    Gatorade    Gillette    Glucon-D    Gowardhan    Hajmola    Haldiram's    Head Shoulders   Heinz    Himalaya    Horlicks    India Gate   Kellogg's    Kinley   Kissan   Knorr    L'Oreal    Lay's     Lijjat     Limca   Lipton  Maggi    Madhur    McCain    MDH    Minute Maid    Mirinda      Mother Dairy    Mountain Dew    MTR     Nestle    Nivea    Nutella   Oral-B   Oreo    Palmolive    Pantene     Paper Boat      Parachute     Parle     Patanjali     Pears     Pepsi    Pepsodent     Pillsbury Rajdhani    Real      Red Bull     Safal     Saffola     Shakti Bhog     Smith And Jones     Sprite     Stayfree    Sundrop     Sunfeast   Sunsilk    Taj Mahal    Tang    Thums Up      Tropicana      Uncle Chipps     Unibic    Vaseline    Veet     Wagh Bakri    Wai Wai   Whisper"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

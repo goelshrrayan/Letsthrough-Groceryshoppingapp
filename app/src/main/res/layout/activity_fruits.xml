@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.letsthrough.fruits"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        android:background="#ffffff"
+        android:layout_marginTop="2dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:text="Vegetables"
+            android:textStyle="bold"
+            android:id="@+id/Vegetables"
+            android:textColor="#ffffff"
+            android:background="@drawable/a"
+            android:onClick="openVegetables"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Fruits"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/fruits"
+            android:textColor="#ffffff"
+            android:background="#7eec15"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Beverages"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/a"
+            android:onClick="openbeverages"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Household Needs"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/a"
+            android:onClick="openHousehold"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/recycler_fruits"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+
+    >
+
+
+
+</android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/a"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.letsthrough.Amount"
+    android:padding="16dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/Vegetables"
+    android:layout_marginTop="12dp"
+    android:textColor="#ffffff"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/Fruits"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/Beverages"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/Household"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/Total"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Cancel Order"
+
+        android:layout_marginTop="12sp"
+        android:background="@drawable/border1"
+        android:onClick="Cancel"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Submit Order"
+
+        android:layout_marginTop="12sp"
+        android:background="@drawable/border1"
+        android:onClick="Submit"/>
+</LinearLayout>

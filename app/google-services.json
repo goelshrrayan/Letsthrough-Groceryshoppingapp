@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "271831046568",
+    "firebase_url": "https://letsthrough-788e1.firebaseio.com",
+    "project_id": "letsthrough-788e1",
+    "storage_bucket": "letsthrough-788e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271831046568:android:5dfdf3ae59517dc8",
+        "android_client_info": {
+          "package_name": "com.example.android.letsthrough"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271831046568-a5jbohnglbtb2dphvtlr8p2lv5ae8qah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbz6tclLxKEkyvr3ud9R-i0xJxVpRwrKU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
